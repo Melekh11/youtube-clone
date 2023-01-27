@@ -25,7 +25,6 @@ const Feed = () => {
           ]);
         });
       } else if (counter === 3) {
-        console.log(videosData);
         setVideos(videosData);
       }
     };

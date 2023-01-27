@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import {
   Typography,
   Card,
-  CardComponent,
   CardMedia,
   CardContent,
 } from '@mui/material';

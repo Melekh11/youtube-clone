@@ -1,10 +1,9 @@
 import { Box, CardContent, CardMedia, Typography } from "@mui/material";
-import { CarCrash, CheckCircle } from "@mui/icons-material";
+import { CheckCircle } from "@mui/icons-material";
 import { demoProfilePicture } from "../utils/constants";
 import { Link } from "react-router-dom";
 
 const prefURL = 'https://yt3.googleusercontent.com/';
-const prefURL2 = 'https://yt3.googleusercontent.com/ytc/';
 
 const ChannelCard = ({ channel, marginTop=0 }) => {
 
