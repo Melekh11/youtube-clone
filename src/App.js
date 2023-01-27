@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Box } from "@mui/material";
 import {
   Navbar,
   Feed,
@@ -12,9 +11,7 @@ import {
 export const App = () => {
   return (
     <BrowserRouter>
-      {/* <Box sx={{ backgroundColor: "#000" }}> */}
-        <Navbar />
-      {/* </Box> */}
+      <Navbar />
       <Routes>
         <Route path="/" exact element={<Feed />} />
         <Route path="/video/:id" element={<VideoDetail />} />
